@@ -2,6 +2,8 @@
 public class Main {
     public static void main(String[] args) {
 
+        player gameboi = new player();
+        gameboi.userhit();
         /*
          * 
          * Basic rules:
@@ -42,7 +44,8 @@ public class Main {
          * ^
          * main loop
          * --------------
-         * occurs within a while loop under the condition that the user doesn't input stand
+         * occurs within a while loop under the condition that the user doesn't input
+         * stand
          * display is prompted if user hits or stands
          * if user hits, random number is added to total
          * else if user stands, total is displayed,
@@ -51,7 +54,8 @@ public class Main {
          * display is prompted if user:
          * if users current total >21, BUST
          * if user hits an ace and king/queen/jack,tens, automatic blackjack
-         * if user selects stand, total is displayed. Break out loop. Begin computer's turn
+         * if user selects stand, total is displayed. Break out loop. Begin computer's
+         * turn
          * ----------------
          * 
          * ALWAYS SHOW CURRENT TOTAL during each play through
@@ -68,10 +72,13 @@ public class Main {
          * when user selecting statnd is true, computer's turn begins
          * 
          * if the second card >= 17, computer stands
-         * if the second card < 17, computer hits(might have to modify it to be a bit more realistic)
-         * if first card is a (king/quen/jack/ace) and second card is an ace, automatic blackjack for computer
+         * if the second card < 17, computer hits(might have to modify it to be a bit
+         * more realistic)
+         * if first card is a (king/quen/jack/ace) and second card is an ace, automatic
+         * blackjack for computer
          * 
-         * user is prompted again if they want to play again. If yes, game restarts. If no, game ends.
+         * user is prompted again if they want to play again. If yes, game restarts. If
+         * no, game ends.
          */
 
     }
