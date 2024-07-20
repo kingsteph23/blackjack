@@ -1,6 +1,5 @@
 import java.util.Random;
 import java.util.Scanner;
-import java.util.random.*;
 
 public class player {
     // special card values(kings,queens,jacks,aces)
@@ -15,6 +14,7 @@ public class player {
     // first two cards
     int card1 = deck[new Random().nextInt(deck.length)];
     int card2 = deck[new Random().nextInt(deck.length)];
+    int randomnumber;
     // random number when user wants to hit
     // inital total of user decks after two cards
     int total = card1 + card2;
@@ -33,7 +33,7 @@ public class player {
         // hit or stand algorithm
         while (true) {
             // random values from deck;
-            int randomnumber = deck[new Random().nextInt(deck.length)];
+            randomnumber = deck[new Random().nextInt(deck.length)];
             // asking user to hit or stand
             System.out.println();
             System.out.println("Do you want to hit or stand?");
