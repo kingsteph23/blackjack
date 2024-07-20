@@ -32,6 +32,10 @@ public class player {
 
         // hit or stand algorithm
         while (true) {
+            if (total == 21) {
+                System.out.println("AUTOMATIC BLACKJACK");
+                break;
+            }
             // random values from deck;
             randomnumber = deck[new Random().nextInt(deck.length)];
             // asking user to hit or stand

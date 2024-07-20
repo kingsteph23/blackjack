@@ -2,11 +2,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        computer gameboi = new computer();
-        gameboi.firsttwo();
-        gameboi.userhit();
-        gameboi.computerturn();
-        gameboi.game();
+        gameactual gameboi = new gameactual();
+        gameboi.gameactual();
         /*
          * 
          * Basic rules:
@@ -67,19 +64,19 @@ public class Main {
          * class computer:
          * 
          * int array deck of cards{1-10, king/queen/jack/aces}
-         * 
+         * ✅
          * two loops:
          * randomizer for the first card
-         * 
+         * ✅
          * nothing occurs until user selects stand
          * when user selecting statnd is true, computer's turn begins
-         * 
+         * ✅
          * if the second card >= 17, computer stands
          * if the second card < 17, computer hits(might have to modify it to be a bit
          * more realistic)
          * if first card is a (king/quen/jack/ace) and second card is an ace, automatic
          * blackjack for computer
-         * 
+         * ✅
          * user is prompted again if they want to play again. If yes, game restarts. If
          * no, game ends.
          * 
