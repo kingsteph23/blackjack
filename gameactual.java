@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class gameactual extends computer {
     // variable for user response
     String userresponse;
+    Scanner scan = new Scanner(System.in);
 
     // function
     void game() {
@@ -12,9 +13,9 @@ public class gameactual extends computer {
         // loop for game as along as user doesn't decide to exit
         while (userresponse != "exit") {
             // asking for user input
+            System.out.println();
             System.out
                     .println("Would you like to play?(Enter exit to leave the game. If you want to play, enter play)");
-            Scanner scan = new Scanner(System.in);
 
             userresponse = scan.nextLine();
             // if user chooses to play
