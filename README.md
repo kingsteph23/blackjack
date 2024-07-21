@@ -7,11 +7,11 @@ User Hits or Stand:
 ![Screenshot 2024-07-21 002010](https://github.com/user-attachments/assets/59163eeb-3d5f-4423-80eb-c3fea64b7c4a)
 
 
-If user wins/losses. If user decides to exit:
+If the user wins/loses. If the user decides to exit:
 ![Screenshot 2024-07-21 002021](https://github.com/user-attachments/assets/33746062-5785-4d54-8f8f-e1cb1ca73735)
 
 
-Classes explination:
+Classes explanation:
 Main Class-
 Displays the title and consists of the object gameboi, calling the gameactual function in the game actual class
 
