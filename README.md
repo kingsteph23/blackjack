@@ -1,3 +1,4 @@
+A simple blackjack game designed with oop techniques in Java
 
 Titile(Asking User if they would like to play or not)
 ![Screenshot 2024-07-21 001958](https://github.com/user-attachments/assets/0ddc62ee-1ce3-43a5-bdc4-7a8237187a5b)
